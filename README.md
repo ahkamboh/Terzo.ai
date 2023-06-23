@@ -4,7 +4,10 @@ Terzo.ai is a GitHub repository developed by **ALI HAMZA KAMBOH**. It is a proje
 
 ## Output
 ![Terzo by ahkamboh](https://github.com/ahkamboh/Terzo.ai/assets/123060177/18633d91-84f6-4482-abe4-39e0ea318e23)
-
+## Mobile Output
+![Mobile Output](https://github.com/ahkamboh/Terzo.ai/assets/123060177/16b17a29-0fb3-4169-ba8c-b355c85b616a)
+## Navbar in Mobile
+![ Navbar in Mobile](https://github.com/ahkamboh/Terzo.ai/assets/123060177/d977e622-a506-40bd-ac8c-184a575137f9)
 ## Project Overview
 
 Terzo.ai aims to create an advanced AI system capable of performing a wide range of tasks. The project leverages state-of-the-art machine learning techniques and algorithms to enable the AI system to learn, reason, and make informed decisions.
