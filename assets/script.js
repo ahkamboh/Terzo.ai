@@ -20,6 +20,11 @@ classgen = (x) => {
   header.classList.remove("backdrop-blur-md");
 };
 
+window.addEventListener("scroll", function () {
+  header.classList.toggle("bg-[#0f0a106a]", window.scrollY > 0);
+  header.classList.toggle("backdrop-blur-md", window.scrollY > 0);
+});
+
 Coregen = () => {
   CorePlatform.classList.toggle("h-full");
   company.classList.remove("h-full");
@@ -54,3 +59,27 @@ resgen = () => {
   textc.classList.remove("text-[#bb99ff]");
   textC.classList.remove("text-[#bb99ff]");
 };
+
+// Chat button by messenger API
+
+var chatbox = document.getElementById("fb-customer-chat");
+chatbox.setAttribute("page_id", "100425223107136");
+chatbox.setAttribute("attribution", "biz_inbox");
+
+window.fbAsyncInit = function () {
+  FB.init({
+    xfbml: true,
+    version: "v17.0",
+  });
+};
+
+(function (d, s, id) {
+  var js,
+    fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+  fjs.parentNode.insertBefore(js, fjs);
+})(document, "script", "facebook-jssdk");
+
