@@ -8,9 +8,15 @@ Terzo.ai is a GitHub repository developed by **ALI HAMZA KAMBOH**. It is a proje
 ## Project Overview
 
 Terzo.ai aims to create an advanced AI system capable of performing a wide range of tasks. The project leverages state-of-the-art machine learning techniques and algorithms to enable the AI system to learn, reason, and make informed decisions.
-
 The project focuses on several key areas, including natural language processing (NLP), computer vision, and machine learning. By combining these fields, Terzo.ai strives to build a versatile AI system capable of understanding and interacting with humans in various domains.
 
+### Hex / Colors
+![main bg](https://placehold.co/15x15/100a11/100a11.png) `#100a11` *bg* <br>
+![#235770](https://placehold.co/15x15/d665fd/d665fd.png) `#d665fd`<br>
+![#487b94](https://placehold.co/15x15/6f4cb4/6f4cb4.png) `#6f4cb4`<br>
+![#cbffff](https://placehold.co/15x15/120b18/120b18.png) `#120b18`<br>
+![#f1faf8](https://placehold.co/15x15/ffffff/ffffff.png) `#ffffff`<br>
+![#ecb510](https://placehold.co/15x15/c06bf1/c06bf1.png) `#c06bf1`<br>
 ## Repository Structure
 
 The Terzo.ai repository is structured in a logical manner to organize the different components of the project. Here is an overview of the main directories and files:
