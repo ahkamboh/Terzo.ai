@@ -20,10 +20,6 @@ classgen = (x) => {
   header.classList.remove("backdrop-blur-md");
 };
 
-window.addEventListener("scroll", function () {
-  header.classList.toggle("bg-[#0f0a106a]", window.scrollY > 0);
-  header.classList.toggle("backdrop-blur-md", window.scrollY > 0);
-});
 Coregen = () => {
   CorePlatform.classList.toggle("h-full");
   company.classList.remove("h-full");
